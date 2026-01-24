@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as t}from"./chunks/framework.BYjp7ujj.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"performance.md","filePath":"performance.md"}'),a={name:"performance.md"};function o(c,n,s,p,m,f){return r(),t("div")}const i=e(a,[["render",o]]);export{d as __pageData,i as default};
