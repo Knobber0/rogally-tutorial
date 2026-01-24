@@ -21,3 +21,6 @@ The Asus Rog Ally is a pretty powerfull handheld compared to somethin>
             Response Time: 7ms
             Brightness: 500nits
             AMD FreeSync™ Premium (Variable Refresh Rate)
+
+
+placeholder for further detail about hardware and upgrading it (will be in additional pages in this subfolder) / adding accesories to help it
