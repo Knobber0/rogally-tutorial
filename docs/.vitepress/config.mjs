@@ -25,6 +25,10 @@ export default defineConfig({
 	collpased: false,
 	items:[
 	 { text: 'Removing Windows', link: '/linux-install' },
+	 { text: 'Deckyloader', link: '/deckyloader' },
+	 { text: 'Custom Kernel', link: '/custom-kernel' },
+	 { text: 'Game mods', link: '/game-modding' },
+	 { text: 'Undervolting', link: '/undervolt' },
 	]
       }		
     ],

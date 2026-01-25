@@ -26,11 +26,11 @@ The installation phase is pretty simple, you can install arch by following these
 
 - 6. Once youre connected type ``archinstall`` and follow the UI.
 
-::: info
+Also when you install steam originaly its gona be in the standard desktop mode, to change that just modify the steam.desktop file in /usr/share/applications or /.local/share/applications and at "Exec=steam" add -gampadui so it looks like "Exec=steam -gamepadui"
+
+::: info Note
 
 While for begginers i would suggest Kde Plasma despite its bugs and bloat and poor settings. If you are more experienced personally i would suggest just switching to WM/Window Manager because the workflow is keyboard based and they tend to use way less ram, personally i would suggest Hyprland because you can setup touch support although i have not tried yet.
-
-Also when you install steam originaly its gona be in the standard desktop mode, to change that just modify the steam.desktop file in /usr/share/applications or /.local/share/applications and at "Exec=steam" add -gampadui so it looks like "Exec=steam -gamepadui"
 
 :::
 
