@@ -30,12 +30,17 @@ export default defineConfig({
               { text: '🛠️ Deckyloader', link: '/deckyloader' },
               { text: '🔩 Custom Kernel', link: '/custom-kernel' },
               { text: '🎮 Game mods', link: '/game-modding' },
+	      { text: '🌀 Fan Curve', link: '/fan-curve' },
+	      { text: '🔍 Fsr', link: '/fsr' },
+	      { text: '🧠 UMA Buffer', link: '/uma' }
             ]
           },
           {
             text: '⚙️ Hardware level',
             items: [
               { text: '🔋 Undervolting', link: '/undervolt' },
+	      { text: '⚡ Overclock', link: '/overclock' },
+	      { text: '❄️ Thermal Mmods', link: '/thermal' }
             ]
           }
         ]
