@@ -1,10 +1,9 @@
 import { defineConfig } from 'vitepress'
 
-
 export default defineConfig({
   title: "Asus Rog Ally Optimization",
   description: "Guide to optimize Rog ally",
-  base: "/rogally-tutorial/" ,
+  base: "/rogally-tutorial/",
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
@@ -14,23 +13,33 @@ export default defineConfig({
     sidebar: [
       {
         text: '📖 Introduction',
-	collapsed: false,
+        collapsed: false,
         items: [
-          { text: 'Hardware Info', link: '/hardware' },
-          { text: 'The Problem', link: '/windows' },
+          { text: '🔧 Hardware Info', link: '/hardware' },
+          { text: '❗ The Problem', link: '/windows' },
         ]
       },
       {
-	text: '🚀 Performance',
-	collpased: false,
-	items:[
-	 { text: 'Removing Windows', link: '/linux-install' },
-	 { text: 'Deckyloader', link: '/deckyloader' },
-	 { text: 'Custom Kernel', link: '/custom-kernel' },
-	 { text: 'Game mods', link: '/game-modding' },
-	 { text: 'Undervolting', link: '/undervolt' },
-	]
-      }		
+        text: '🚀 Performance',
+        collapsed: false,
+        items: [
+          {
+            text: '💻 Software level',
+            items: [
+              { text: '🗑️ Removing Windows', link: '/linux-install' },
+              { text: '🛠️ Deckyloader', link: '/deckyloader' },
+              { text: '🔩 Custom Kernel', link: '/custom-kernel' },
+              { text: '🎮 Game mods', link: '/game-modding' },
+            ]
+          },
+          {
+            text: '⚙️ Hardware level',
+            items: [
+              { text: '🔋 Undervolting', link: '/undervolt' },
+            ]
+          }
+        ]
+      }
     ],
 
     socialLinks: [
