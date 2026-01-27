@@ -5,10 +5,9 @@ This page explains the ROG Ally’s hardware and why its performance often feels
 ## The hardware is not the limiting factor
 
 > [!NOTE]
-> The ROG Ally X specifications are not covered here.  
-> Aside from color and an increased battery capacity (40Wh → 80Wh), the hardware is identical.
+> The ROG Ally X specs are not covered here, since aside from color and an increased battery capacity (40Wh → 80Wh) the hardware is identical.
 
-While the hardware is not the best available, it significantly outperforms the Steam Deck in numbers. The Steam Deck uses a Zen 2 CPU and RDNA 2 GPU, whereas the ROG Ally uses a newer CPU and GPU architecture.
+While the hardware is not the best available, it significantly outperforms the Steam Deck in numbers. The Steam Deck uses a Zen 2 CPU and RDNA 2 GPU, whereas the ROG Ally uses a Zen 3 CPU and RDNA 3 GPU.
 
 ### ASUS ROG Ally specifications
 
@@ -77,14 +76,14 @@ While the hardware is not the best available, it significantly outperforms the S
 ## Why does performance still feel poor?
 
 
-While this alone is not the only reason the ROG Ally outperforms the Steam Deck, it plays a major role. Aside from obvious hardware limits, software is a major factor. Windows 11 itself is not the sole cause of poorer performance, but the lack of proper integration with the ROG Ally results in a bloated and sometimes buggy experience. Several users and YouTubers have reported issues such as the device failing to properly enter hibernation or sleep states when running Windows.
+While this alone is not the only reason the ROG Ally outperforms the Steam Deck, it plays a major role. Aside from obvious hardware limits, software is a major factor. Windows 11 itself is not the sole cause of poorer performance, but the lack of proper integration with the ROG Ally results in a bloated and sometimes buggy experience. Quite a few users and YouTubers have reported issues such as the device failing to properly enter hibernation or sleep states when running Windows.
 
 ## What is the alternative?
 
-The most logical solution is Linux. While Linux is not perfect and has known issues with kernel-level anti-cheat systems, ignoring the overall improvement in experience would be unrealistic.
+The most logical solution is Linux. While Linux is not perfect and has known issues with kernel level anticheats, ignoring the overall improvement in experience would be unwise.
 
-For this reason, this guide focuses on using Linux, and this is why basic Linux knowledge is required before continuing.
+This is why the guide focuses on using Linux, and why basic Linux knowledge is required before continuing.
 
 ## What can be done?
 
-To understand what can be done to improve performance and overall experience, continue reading the documentation.
+To understand what you can do to improve performance and overall experience, continue reading the documentation.

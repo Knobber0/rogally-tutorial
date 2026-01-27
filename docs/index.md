@@ -21,5 +21,5 @@ features:
   - title: Windows is not built for handhelds
     details: Windows 11 works, but power management, suspend behavior, and background overhead hurt performance and battery life.
 
-  - title: This guide focuses on Linux-based solutions
+  - title: This guide focuses on Archlinux
     details: The documentation goes over using Linux to reduce overhead and improve consistency, with realistic trade offs explained.
