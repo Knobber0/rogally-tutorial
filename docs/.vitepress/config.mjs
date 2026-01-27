@@ -39,7 +39,7 @@ export default defineConfig({
             items: [
               { text: '🔋 Undervolting', link: '/undervolt' },
 	      { text: '⚡ Overclock', link: '/overclock' },
-	      { text: '❄️ Thermal Mmods', link: '/thermal' }
+	      { text: '❄️ Thermal Mmds', link: '/thermal' }
             ]
           }
         ]
