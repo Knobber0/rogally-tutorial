@@ -15,11 +15,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+  - title: The hardware is not the issue
+    details: On paper, the ROG Ally outclasses the Steam Deck in both CPU and GPU. Poor performance is mostly a software problem.
 
+  - title: Windows is not built for handhelds
+    details: Windows 11 works, but power management, suspend behavior, and background overhead hurt performance and battery life.
+
+  - title: This guide focuses on Archlinux
+    details: The documentation goes over using Linux to reduce overhead and improve consistency, with realistic trade offs explained.

@@ -15,8 +15,7 @@ export default defineConfig({
         text: '📖 Introduction',
         collapsed: false,
         items: [
-          { text: '🔧 Hardware Info', link: '/hardware' },
-          { text: '❗ The Problem', link: '/windows' },
+          { text: '⚙️ ROG Ally and Technical Issues', link: '/rog-ally-and-technical-issues' },
         ]
       },
       {

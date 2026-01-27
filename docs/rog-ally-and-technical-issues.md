@@ -1,12 +1,15 @@
-# What is the hardware of the Asus Rog Ally?
+# Understanding the ASUS ROG Ally
 
-::: danger
+This page explains the ROG Ally’s hardware and why its performance often feels worse than expected.
 
-The Rog Ally X specifications are not covered here because the only change is the color and battery being upgraded from 40WHrs to 80WHrs.
+## The hardware is not the limiting factor
 
-:::
+> [!NOTE]
+> The ROG Ally X specs are not covered here, since aside from color and an increased battery capacity (40Wh → 80Wh) the hardware is identical.
 
-The Asus Rog Ally runs:
+While the hardware is not the best available, it significantly outperforms the Steam Deck in numbers. The Steam Deck uses a Zen 2 CPU and RDNA 2 GPU, whereas the ROG Ally uses a Zen 3 CPU and RDNA 3 GPU.
+
+### ASUS ROG Ally specifications
 
 - Operating System: Windows 11 Home
 
@@ -70,3 +73,17 @@ The Asus Rog Ally runs:
 - Security: Microsoft Pluton security processor
 	    Built-in Fingerprint Sensor
 
+## Why does performance still feel poor?
+
+
+While this alone is not the only reason the ROG Ally outperforms the Steam Deck, it plays a major role. Aside from obvious hardware limits, software is a major factor. Windows 11 itself is not the sole cause of poorer performance, but the lack of proper integration with the ROG Ally results in a bloated and sometimes buggy experience. Quite a few users and YouTubers have reported issues such as the device failing to properly enter hibernation or sleep states when running Windows.
+
+## What is the alternative?
+
+The most logical solution is Linux. While Linux is not perfect and has known issues with kernel level anticheats, ignoring the overall improvement in experience would be unwise.
+
+This is why the guide focuses on using Linux, and why basic Linux knowledge is required before continuing.
+
+## What can be done?
+
+To understand what you can do to improve performance and overall experience, continue reading the documentation.

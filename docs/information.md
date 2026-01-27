@@ -4,18 +4,17 @@
  I am **NOT** responsible for any damage done to youre console that happened. 
 :::
 
-# What do you need?
+## Prerequisites
 
-1. Reading ability
+Before continuing, you need:
 
-2. Knowledge of Linux (Not a expert amount but enough so you can understand what you are doing and how to navigate)
+- The ability to follow technical documentation
+- Basic Linux knowledge (navigation, terminal usage, file systems)
+- A storage device suitable for flashing or installation
 
-3. Any sort of a storage device that can be used for flashing
+# What does this site cover?
 
-# What will this site cover?
-
-This site will cover various topics but is not limited to performance improvement. Some examples being on how to setup shadps4 etc etc.
-While the main focus is performance improvement, things can change in the future. Prs are Welcome
+This site covers a range of topics, mainly focused on performance improvement. It also provides setup notes and general information for things like shadPS4 and similar tools. The scope of this project may expand over time. PRs are welcome.
 
 ::: tip
 
