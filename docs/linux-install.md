@@ -1,5 +1,7 @@
 # Installing Arch Linux
 
+---
+
 :::details Why Arch Linux?
 
 This guide uses Arch Linux as it has the freedom to do anything. While other operating systems provide good integration, they have their own unaddressed issues or unnecessary bloat. For example, Bazzite is filled to the brim with flatpaks, which while some may consider flatpaks good, are generally pretty bad because of permission issues and unnecesary sandboxing resulting in worse performance. While on the other hand CachyOS is pretty decent it has a lot of bloat that isn't really necessary for the ROG Ally.
@@ -30,10 +32,5 @@ The installation phase is pretty simple, you can install Arch by following these
 > [!TIP]
 > By default Steam will launch in the standard desktop mode. To change that, modify the steam.desktop file in /usr/share/applications or /.local/share/applications by modifying the line containing "Exec=steam" to contain "-gamepadui", turning it into "Exec=steam -gamepadui"
 
-::: info NOTE
-
-I recommend using KDE Plasma despite its bugs, bloat and poor settings. If you are more experienced I would suggest switching to WM/Window Manager because the workflow is keyboard based and they tend to use way less RAM. Personally I would suggest Hyprland because you can setup touch support, though I haven't tried yet.
-
-:::
-
-
+> [!TIP]
+> I recommend using KDE Plasma despite its bugs, bloat and poor settings because it will feel more familiar to most people. If you are more experienced I would suggest switching to WM/Window Manager because the workflow is keyboard based and they tend to use way less RAM. Personally I would suggest Hyprland because you can setup touch support, though I haven't tried yet.
