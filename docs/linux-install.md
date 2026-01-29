@@ -1,37 +1,36 @@
-# Installing Archlinux
+# Installing Arch Linux
 
-## Why Archlinux?
+---
 
-I have choosen archlinux because it has aboslute freedom to do anything, but also because other operating systems while good intergration have their own issues nobody seems to address and just glazes the project. For example i have not choosen bazzite because it is filled to the brim with flatpaks, and flatpaks while some may consider "good" are generally pretty bad because of permission issues and uneccesery sandbox resulting in poor-er performance. While on the other hand CachyOS is pretty decent it just has tons of stuff that are not really neccesery for the Rog Ally.
+:::details Why Arch Linux?
 
-## How to actually install Archlinux?
-
-::: info
-
-Make sure to boot into bios before and disable secure boot to avoid issues when install archlinux. While IT IS possible to install archlinux with secure boot enabled its not worth the trouble as of now. You can boot into bios by Holding ``Volume Up`` + ``Power``.
+This guide uses Arch Linux as it has the freedom to do anything. While other operating systems provide good integration, they have their own unaddressed issues or unnecessary bloat. For example, Bazzite is filled to the brim with flatpaks, which while some may consider flatpaks good, are generally pretty bad because of permission issues and unnecesary sandboxing resulting in worse performance. While on the other hand CachyOS is pretty decent it has a lot of bloat that isn't really necessary for the ROG Ally.
 
 :::
+## Prerequisites
+- A USB drive (at least 4GB, preferably USB 3.0).
+- Backup any important data on your ROG Ally as this process will wipe the drive.
+- Internet access (Either WiFi or Ethernet)
 
-The installation phase is pretty simple, you can install arch by following these few steps:
+## Installing Arch Linux
 
-- 1. Download the archlinux iso from their website
+> [!WARNING]
+> Make sure to boot into BIOS before and disable secure boot to avoid issues when install Arch Linux. While it is possible to install Arch Linux with secure boot enabled, it's not worth the trouble as of now. You can boot into BIOS by Holding ``Volume Up`` + ``Power``.
 
-- 2. Download Rufus
+The installation phase is pretty simple, you can install Arch by following these few steps:
 
-- 3. Plug in a USB drive(prefferably 3.0) and flash it with the archlinux iso file using rufus
+1. Download the [Arch Linux ISO](https://archlinux.org/download/) and [Rufus](https://rufus.ie/) from their official websites
 
-- 4. Reboot the device and boot into bios and select youre usb and click on the ``Archlinux install medium`` option.
+2. Plug in your USB drive and flash it with the Arch Linux ISO file using Rufus
 
-- 5. Now you need to connect to wifi, to do that check the archwiki page [here](https://wiki.archlinux.org/title/Iwctl) - You can also connect with ethernet by plugging in the cable.
+3. Reboot the device and boot into the boot selection menu (using ``Volume Down`` + ``Power``) and select your USB and select the ``Archlinux install medium`` option.
 
-- 6. Once youre connected type ``archinstall`` and follow the UI.
+4. Connect to WiFi using iwd (via ``iwctl``) (check the [Arch Wiki page](https://wiki.archlinux.org/title/Iwctl) on it for more details) or connect with ethernet by plugging in a cable.
 
-Also when you install steam originaly its gona be in the standard desktop mode, to change that just modify the steam.desktop file in /usr/share/applications or /.local/share/applications and at "Exec=steam" add -gampadui so it looks like "Exec=steam -gamepadui"
+5. Once you're connected, type ``archinstall`` and follow the installation UI.
 
-::: info Note
+> [!TIP]
+> By default Steam will launch in the standard desktop mode. To change that, modify the steam.desktop file in /usr/share/applications or /.local/share/applications by modifying the line containing "Exec=steam" to contain "-gamepadui", turning it into "Exec=steam -gamepadui"
 
-While for begginers i would suggest Kde Plasma despite its bugs and bloat and poor settings. If you are more experienced personally i would suggest just switching to WM/Window Manager because the workflow is keyboard based and they tend to use way less ram, personally i would suggest Hyprland because you can setup touch support although i have not tried yet.
-
-:::
-
-
+> [!TIP]
+> I recommend using KDE Plasma despite its bugs, bloat and poor settings because it will feel more familiar to most people. If you are more experienced I would suggest switching to WM/Window Manager because the workflow is keyboard based and they tend to use way less RAM. Personally I would suggest Hyprland because you can setup touch support, though I haven't tried yet.
